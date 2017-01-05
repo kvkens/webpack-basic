@@ -17,15 +17,24 @@ This repo is a boilerplate for React-Babel-Webpack project. You could use it as 
 First, you should clone the repo and install the dependencies.
 
 ```bash
-$ git clone git@github.com:ruanyf/react-babel-webpack-boilerplate.git <yourAppName>
-$ cd <yourAppName>
-$ npm install
+$ npm install uba -g
+$ uba
 ```
 
 Then, launch the boilerplate app.
 
 ```bash
+# Start
 $ npm start
+
+# build javascript lib
+$ npm build
+
+# deploy
+$ npm deploy
+
+# deploy to windows
+$ npm deploy-windows
 ```
 
 You should see a new browser tap opening and a title of "Hello World" in http://127.0.0.1:8080.
